@@ -1,19 +1,43 @@
-class BankLocker:
-    def __init__(self, password, balance):
-        self.__balance = balance
-        self.__password = password
+class Employee:
 
-    def check_balance(self):
-        print("Balance :",self.__balance)
+    def __init__(self, name, salary):
+        self.name = name
+        self.__salary = salary
 
-    def change_password(self, old_password,new_password):
-        if old_password == self.__password:
-            print("Password changed Successfully")
+    def get_salary(self):
+        return self.__salary
 
+    def set_salary(Self, new_salary):
+
+        if new_salary > 0:
+            Self.__salary = new_salary
+            print("Salary Updated Successfully")
         else:
-            print("Incorrect old Password")
+            print("Invalid salary")
+
+    def increase_salary(self, amount):
+        if amount > 0:
+            self.__salary += amount
+            print("Salary Increase by Rs ",amount)
+        else:
+            print("Invalid Amount")
 
 
-l1 =  BankLocker(1234, 50000)
-l1.check_balance()
-print(l1.__balance)
+    def display(self):
+        print("\n-----Employee Details------")
+        print("Name :",self.name)
+        print("Salary :",self.__salary)
+
+e1 = Employee("Chaitanya",50000)
+
+e1.display()
+
+e1.increase_salary(10000)
+
+e1.display()
+
+e1.set_salary(70000)
+
+e1.display()
+
+print("\n Salary using Getter:", e1.get_salary())
