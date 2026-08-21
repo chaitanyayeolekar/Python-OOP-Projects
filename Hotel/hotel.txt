@@ -1,0 +1,21 @@
+Customer : Chaitanya
+Room Number: 105
+Room Type : luxury
+Price Per Day : 9000
+Days : 10
+Total Amount : 90000
+-----------------------------
+Customer : Chaitanya
+Room Number: 105
+Room Type : luxury
+Price Per Day : 9000
+Days : 10
+Total Amount : 90000
+-----------------------------
+Customer Name : Chaitanyashree
+Room Number   : 105
+Room Type     : Luxury
+Price Per Day : 9000
+Number of Days: 30
+Total Amount  : Rs 270000
+----------------------------------

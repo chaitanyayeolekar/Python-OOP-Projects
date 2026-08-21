@@ -253,25 +253,70 @@
 #     print(product, products[product])
 
 
-questions = {
-    1:{
-        "question":"what is 5 + 5",
-        "options":["5","10","15","20"],
-        "answer":"b"
-    }
-}
+# questions = {
+#     1:{
+#         "question":"what is 5 + 5",
+#         "options":["5","10","15","20"],
+#         "answer":"b"
+#     }
+# }
 
-letters = ["a","b","c","d"]
+# letters = ["a","b","c","d"]
 
-print(questions[1]["question"])
+# print(questions[1]["question"])
 
-for i in range(4): 
-    print(letters[i],".",questions[1]["options"][i])
+# for i in range(4): 
+#     print(letters[i],".",questions[1]["options"][i])
 
-answer = input("Enter your Answer : ")
+# answer = input("Enter your Answer : ")
 
-if answer.upper() == questions[1]["answer"].upper():
-    print("Correct Answer!")
+# if answer.upper() == questions[1]["answer"].upper():
+#     print("Correct Answer!")
 
-else:
-    print("Wrong Answer!")                     
+# else:
+#     print("Wrong Answer!")                     
+
+
+# class Practice:
+
+#     def information(self):
+#         name = "chaitanya"
+#         age = 15
+#         brand = "addidas"
+#         function = "hacker ofcourse"
+
+        
+
+#     def call(self,name , age , brand , function):
+#         print(name)
+#         print(age)
+#         print(brand)
+#         print(function)
+
+# c1 = Practice()
+# c1.information()
+# c1.call()
+
+
+# class Student:
+
+#     def save_marks(self, name, marks):
+#         print("Student",name)
+#         print("Makrs",marks)
+
+#     def result(self):
+
+#         student_name = "Chaitanya"
+#         student_marks = "85"
+
+#         self.save_marks(student_name,student_marks)
+# s1 = Student()
+# s1.result()
+
+
+print("-" * 65)
+
+print(
+    f"{'Room':<8}"
+    f"{'type':<15}"
+)
